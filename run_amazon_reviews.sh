@@ -61,6 +61,7 @@ for category in "${CATEGORIES[@]}"; do
         --gpu_id=0 \
         --seed="${SEED}" \
         --epochs=100 \
+        --eval_step=10 \
         --use_rl=1 \
         --joint=0 \
         --train_batch_size=256 \
